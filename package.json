@@ -1,0 +1,14 @@
+{
+  "name": "live-whiteboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server/index.js",
+    "start:ngrok": "ngrok http 3001",
+    "start:client": "cd client && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
